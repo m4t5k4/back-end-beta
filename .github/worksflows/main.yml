@@ -50,7 +50,7 @@ jobs:
     - name: Upload Maven build artifact
       uses: actions/upload-artifact@v1
       with:
-        name: back-end-beta-service-artifact.jar
+        name: back-end-beta-artifact.jar
         path: ./target/back-end-beta-0.0.1-SNAPSHOT.jar
 
     - name: Docker login
