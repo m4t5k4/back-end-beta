@@ -56,7 +56,7 @@ spec:
     spec:                     # Spec for the containers that will be run in the Pods
       containers:
       - name: review-service-server
-        image: m4t5k4/back-end-alfa
+        image: m4t5k4/back-end-beta
         imagePullPolicy: IfNotPresent
         ports:
         - name: http
